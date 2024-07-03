@@ -24,6 +24,52 @@
   color: white;
 }
 
+.App-main {
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile-card h2 {
+  margin-top: 10px;
+}
+
+.profile-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-card li {
+  background: #9fd85e;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  padding: 10px 0;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .App-link {
   color: #61dafb;
 }
