@@ -1,0 +1,54 @@
+.kate{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-items:flex-start;
+  align-content: space-around;
+  align-items: center;
+  display: grid;
+  justify-content: left;
+  width: 25%;
+  
+  }
+  .homework{
+      margin-top: 35px;
+      display: flex;
+      padding-left: 40px;
+      padding-top: 20px;
+      justify-content:space-around;
+      align-content: center;
+      align-items: center;
+      align-self: center;
+  
+  
+  }
+  .profile{
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      align-self: center;
+      display: inline-block;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      margin: 20px auto;
+      text-align: left;
+  }
+  .listHobbies{
+    background: #c6dfef;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+      text-align: start;
+      gap: 0;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: bolder;
+      align-items: center;
+      padding-left: 20px;
+  
+  }
+  h4{
+    margin-top: 10px;
+  }
