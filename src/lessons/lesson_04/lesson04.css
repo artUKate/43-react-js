@@ -1,0 +1,57 @@
+.lesson-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .lesson-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .card.isDark {
+    background-color: #363030;
+    color: #fff;
+  }
+  
+  .card.isLight {
+    background-color: #c0bfbf;
+    color: #000;
+  }
+  
+  .card img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card .lightsaber-colors {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .card .lightsaber-colors span {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }

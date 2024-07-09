@@ -1,13 +1,11 @@
-import './myInputClasswork.css'
+import "./myInputClasswork.css";
 
+export default function MyInputClasswork({label, name, type, placeholder}) {
 
-
-export default function MyInput(props) {
-  console.log(props);
   return (
     <>
-      <label className='label'>{props.label}</label>
-      <input type={props.type} name={props.name} placeholder={props.placeholder} />
+      <label className='label'>{label}</label>
+      <input type={type} name={name} placeholder={placeholder} />
     </>
   );
 }
